@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#edf3ed">
+<title>3학년 7반 | 나의 수능 FINAL PLAN</title>
+<style>
+:root{font-family:system-ui,-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;color:#233b31;background:#edf3ed;font-synthesis:none}*{box-sizing:border-box}body{margin:0;min-height:100vh}button,textarea,input{font:inherit}button{cursor:pointer}button:focus-visible,textarea:focus-visible{outline:3px solid #8fb5a2;outline-offset:3px}.shell{max-width:680px;margin:auto;padding:22px 18px 60px}.top{display:flex;justify-content:space-between;align-items:center;color:#597668;font-size:13px;font-weight:700;margin-bottom:20px}.pill{background:#dfe9e1;border-radius:999px;padding:7px 12px}.panel{background:#fff;border-radius:26px;padding:clamp(22px,6vw,40px);box-shadow:0 10px 35px #34584413}.eyebrow{color:#57816a;font-size:12px;letter-spacing:.1em;font-weight:800}.hero{text-align:center;padding:38px 0 22px}h1{font-size:clamp(32px,7vw,45px);letter-spacing:-.045em;line-height:1.18;margin:14px 0}h2{font-size:25px;letter-spacing:-.04em;line-height:1.4;margin:12px 0}p{line-height:1.75;color:#61776b}.lead{font-size:16px}.note{background:#f0f5f0;border-radius:16px;padding:17px;color:#526e5c;line-height:1.8;font-size:14px}.buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:25px}.btn{border:0;border-radius:13px;padding:14px 17px;font-weight:750;background:#315b47;color:#fff;flex:1;min-width:125px}.btn.alt{background:#eaf0eb;color:#335d49}.btn.ghost{background:transparent;border:1px solid #ccdad0;color:#42644f}.btn:disabled{opacity:.35;cursor:not-allowed}.progress{height:7px;border-radius:50px;background:#e7eee8;overflow:hidden;margin:12px 0 29px}.progress>div{height:100%;background:#5b8a71;transition:width .2s}.count{font-size:13px;color:#6a8274;font-weight:700}label{font-weight:750;color:#355241;display:block;margin:15px 0 8px}.hint{color:#72877b;font-size:14px;line-height:1.7}.field{width:100%;border:1px solid #ccdad0;border-radius:14px;background:#fbfdfb;padding:15px;color:#243f31;resize:vertical;min-height:130px;line-height:1.7}.field.small{min-height:75px}.example{font-size:13px;color:#6f8878;margin-top:8px}.error{color:#ad554f;font-size:13px;min-height:18px}.summary-item{padding:15px 0;border-bottom:1px solid #e7ede8}.summary-item:last-child{border:0}.summary-label{font-size:12px;font-weight:800;color:#57816a;letter-spacing:.06em}.save-line{font-size:12px;color:#799084;text-align:right;margin-top:10px}.card-area{padding:15px 0;display:flex;justify-content:center}.strategy-card{background:#fff;width:min(100%,410px);aspect-ratio:9/16;border-radius:4px;padding:28px 25px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 10px 38px #24482b1b;overflow:hidden}.card-top{display:flex;justify-content:space-between;font-size:11px;color:#61846d;font-weight:800;letter-spacing:.055em}.card-heading{font-size:27px;letter-spacing:-.04em;line-height:1.4;color:#254534;font-weight:800;overflow-wrap:anywhere;margin:18px 0}.card-rule{height:1px;background:#dce8df;margin-bottom:12px}.card-section{margin:12px 0}.card-tag{font-size:10px;color:#568369;font-weight:800;letter-spacing:.07em}.card-value{font-size:15px;font-weight:700;color:#304337;line-height:1.5;margin:5px 0 0;overflow-wrap:anywhere;white-space:pre-wrap}.quote{background:#eff5ef;border-radius:12px;padding:15px;text-align:center;margin:13px 0}.quote .card-value{color:#28503a;font-size:17px}.card-foot{text-align:center;font-size:10px;color:#7f9786;letter-spacing:.03em}.privacy{font-size:12px;color:#728579;margin-top:18px}.hidden{display:none!important}@media(max-width:400px){.strategy-card{padding:21px 18px}.card-heading{font-size:22px}.card-section{margin:7px 0}.card-value{font-size:13px}.quote .card-value{font-size:15px}}@media print{body{background:#fff}.top,.buttons,.privacy,.print-hide{display:none!important}.shell{padding:0}.panel{box-shadow:none;padding:0}.strategy-card{box-shadow:none;width:100%;max-width:480px;margin:auto}}
+
+/* Final revision: calmer, clearer, and more readable */
+.top{font-size:16px}.pill{font-size:15px;padding:9px 15px;background:#dcebe0;color:#355d46}
+.eyebrow{font-size:15px;letter-spacing:.035em}
+.card-top{font-size:clamp(12px,2.8vw,14px);letter-spacing:0;gap:10px}
+.card-top span:last-child{font-size:clamp(13px,3.3vw,16px);font-weight:900;text-align:right}
+.card-heading{font-size:clamp(22px,5.5vw,28px);line-height:1.35;overflow-wrap:normal;word-break:keep-all}
+.card-tag{font-size:clamp(13px,3.2vw,16px);letter-spacing:0}
+.card-section{margin:11px 0}
+@media(max-width:400px){.card-tag{font-size:13px}.card-top span:last-child{font-size:12px}}
+/* Mobile image-save fallback: display an actual PNG that can be long-pressed. */
+.image-overlay{position:fixed;inset:0;z-index:1000;background:rgba(18,35,26,.85);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:16px;gap:12px}
+.image-overlay[hidden]{display:none!important}
+.image-overlay-head{width:min(100%,480px);display:flex;align-items:center;justify-content:space-between;gap:12px;color:#fff}
+.image-overlay-head strong{font-size:16px}
+.image-overlay-close{border:1px solid #fff7;color:#fff;border-radius:10px;background:transparent;padding:9px 14px;font-weight:700}
+.image-overlay img{display:block;max-width:min(100%,430px);max-height:72dvh;max-height:72vh;object-fit:contain;background:#fff;-webkit-touch-callout:default;user-select:auto;-webkit-user-select:auto}
+.image-overlay-help{width:min(100%,480px);margin:0;color:#fff;text-align:center;font-size:14px;line-height:1.6}
+/* A quiet note from the homeroom teacher, shown only below the result controls. */
+.teacher-note{margin-top:28px;padding:20px 21px;border-radius:17px;background:#f1f6f0;border:1px solid #dce9de}
+.teacher-note-title{margin:0 0 10px;font-size:16px;font-weight:800;color:#315e45;line-height:1.5}
+.teacher-note-body{margin:0;color:#46624f;font-size:14px;line-height:1.85;word-break:keep-all}
+.teacher-note-sign{margin:12px 0 0;color:#718b77;font-size:12px;font-weight:700;text-align:right}
+@media print{.teacher-note{display:none!important}}
+</style>
+</head>
+<body><main class="shell"><header class="top"><span>3학년 7반</span><span class="pill">2027 수능 · FINAL CHECK</span></header>
+<section id="welcome" class="panel"><div class="hero"><div class="eyebrow">3학년 7반 · 나를 위한 마지막 점검</div><h1>나의 수능<br>FINAL PLAN</h1><p class="lead">더 많이 하는 것보다,<br>지금 나에게 필요한 것을 분명하게.</p></div><div class="note">약 5~7분 동안 나의 준비를 돌아봅니다.<br>누구에게 보여주기 위한 답이 아니라, 나를 위한 점검입니다. 천천히 솔직하게 적어 보세요.<br>남은 기간에 <strong>계속할 것, 집중할 것, 내려놓을 것, 당황했을 때 할 것</strong>을 정해 보세요.</div><div class="buttons"><button class="btn" id="start">나의 계획 정리 시작하기 →</button></div><p class="privacy">🔒 이름이나 성적 입력이 필요 없습니다. 입력 내용은 서버로 전송하지 않고 이 브라우저에만 저장합니다. 공용 기기에서는 사용 후 ‘작성 내용 삭제’를 눌러 주세요.</p></section>
+<section id="questions" class="panel hidden"><div class="count" id="count"></div><div class="progress"><div id="bar"></div></div><div class="eyebrow">나를 위한 점검</div><h2 id="question-title"></h2><p class="hint" id="question-hint"></p><label for="answer">나의 생각</label><textarea id="answer" class="field" maxlength="700" placeholder="편하게 적어 보세요."></textarea><div class="example" id="example"></div><div class="save-line" id="saved-message">작성 내용은 자동 저장됩니다.</div><div class="buttons"><button class="btn alt" id="back">이전</button><button class="btn" id="next">다음 →</button></div></section>
+
+<section id="result" class="panel hidden"><div class="eyebrow">3학년 7반 · MY FINAL PLAN</div><h2>나만의 전략 카드가 완성됐어요.</h2><p>스스로 돌아보고 정리한 계획입니다. 조급할 때 잠시 꺼내 읽어 보세요. 지금까지 해 온 시간도 분명한 힘이 됩니다.</p><div class="card-area"><div class="strategy-card" id="strategy-card"><div><div class="card-top"><span>MY FINAL PLAN</span><span>3학년 7반 · 2027 수능</span></div><div class="card-heading">나는 내가 할 수 있는 것에<br>집중한다.</div><div class="card-rule"></div><div id="card-lines"></div></div><div><div class="quote"><div class="card-tag">TO MYSELF · 나에게</div><div class="card-value" id="card-quote"></div></div><div class="card-foot">나만의 속도로, 끝까지.</div></div></div></div><div class="buttons"><button class="btn" id="download">PNG 이미지 저장 ↓</button><button class="btn alt" id="image-view">이미지 크게 보기 · 길게 눌러 저장</button></div><div class="buttons"><button class="btn alt" id="copy">면담용 내용 복사</button></div><div class="buttons"><button class="btn ghost" id="revise">답변 다시 살펴보기</button><button class="btn ghost" id="reset">작성 내용 삭제</button></div><p class="privacy" id="status" role="status">카카오톡에서는 PNG 저장 버튼을 누르면 이미지가 열립니다. 이미지를 길게 눌러 저장해 주세요.</p><aside class="teacher-note" aria-label="담임샘의 한마디"><p class="teacher-note-title">담임샘이랑 얘기하고 싶다면?</p><p class="teacher-note-body">공부 방향이 고민될 때도, 마음이 복잡할 때도,<br>응원이나 정신 번쩍 드는 말이 필요할 때도 언제든!<br>혼자 고민말고 바로 얘기하기😉💖</p><p class="teacher-note-sign">➡️ 항상 7반을 응원하는 담임샘에게</p></aside></section></main>
+<div id="image-overlay" class="image-overlay" hidden role="dialog" aria-modal="true" aria-label="전략 카드 이미지 저장">
+ <div class="image-overlay-head"><strong>완성된 PNG 이미지</strong><button class="image-overlay-close" type="button" id="image-overlay-close">닫기 ✕</button></div>
+ <img id="image-overlay-img" alt="내가 작성한 수능 FINAL PLAN 카드 PNG 이미지">
+ <p class="image-overlay-help">이미지를 길게 눌러 <strong>이미지 저장</strong>을 선택해 주세요.<br>저장이 안 되면 이 화면을 캡처해도 괜찮아요.</p>
+</div>
+<script>
+'use strict';
+const STORE='final-plan-3-7-v1';
+const qs=[
+ {q:'지금까지 내가 꾸준히 잘해 온 것은 무엇인가요?',h:'남은 기간에도 계속 유지하고 싶은 공부 습관을 떠올려 보세요.',ex:'예: 매일 아침 국어 지문을 풀고 틀린 이유를 확인해 왔다.'},
+ {q:'최근 모의고사에서 반복된 아쉬움은 무엇인가요?',h:'점수보다 원인에 집중해 보세요. 모르는 내용, 시간 부족, 실수 중 무엇이었나요?',ex:'예: 수학에서 막히는 한 문제에 시간을 너무 오래 썼다.'},
+ {q:'남은 기간 가장 집중해서 보완할 한 가지는 무엇인가요?',h:'막연한 다짐 대신 실행할 수 있는 행동을 생각해 보세요.',ex:'예: 매일 수학 풀이에서 계산 실수한 부분 3개 확인하기.'},
+ {q:'남은 기간에 줄이거나 멈출 것은 무엇인가요?',h:'도움이 되지 않는 비교나 무리한 계획을 내려놓아도 괜찮습니다.',ex:'예: 친구 공부량과 비교하며 계획을 계속 바꾸는 것.'},
+ {q:'수능 당일 예상치 못한 상황이 생기면 어떻게 대처할까요?',h:'어려운 문제, 시간 부족, 긴장 등 실제 상황 하나를 떠올려 보세요.',ex:'예: 막히는 문제는 표시하고 넘어가서 풀 수 있는 문제부터 해결하기.'},
+ {q:'지금 나에게 가장 필요한 말은 무엇인가요?',h:'수능 당일에도 다시 읽고 싶은 현실적인 한마디를 적어 보세요.',ex:'예: 한 문제에 흔들리지 말고 다음 문제에 집중하자.'}
+];
+const labels=[['KEEP','계속할 것'],['FOCUS','집중할 것'],['STOP','내려놓을 것'],['IF','당황한다면'],['TO MYSELF','나에게 해줄 말']];
+let data={answers:Array(6).fill(''),card:Array(5).fill('')},step=0;
+try{const loaded=JSON.parse(localStorage.getItem(STORE));if(loaded&&Array.isArray(loaded.answers)&&Array.isArray(loaded.card)){data.answers=qs.map((_,i)=>String(loaded.answers[i]||''));data.card=labels.map((_,i)=>String(loaded.card[i]||''));}}catch(e){}
+const $=id=>document.getElementById(id);
+function save(){try{localStorage.setItem(STORE,JSON.stringify(data));$('saved-message').textContent='이 브라우저에 자동 저장되었습니다.'}catch(e){$('saved-message').textContent='자동 저장을 사용할 수 없습니다. 카드 이미지를 저장해 주세요.'}}
+function show(id){['welcome','questions','result'].forEach(x=>$(x).classList.toggle('hidden',x!==id));window.scrollTo(0,0)}
+function renderQ(){show('questions');$('count').textContent=`${step+1} / ${qs.length}`;$('bar').style.width=`${(step+1)*100/qs.length}%`;$('question-title').textContent=qs[step].q;$('question-hint').textContent=qs[step].h;$('example').textContent=qs[step].ex;$('answer').value=data.answers[step];$('back').disabled=step===0;$('next').textContent=step===qs.length-1?'나의 전략 카드 보기 →':'다음 →';}
+function syncAnswer(){data.answers[step]=$('answer').value;save()}
+$('answer').addEventListener('input',syncAnswer);
+$('start').onclick=()=>{step=0;renderQ()};$('back').onclick=()=>{syncAnswer();if(step>0){step--;renderQ()}};
+$('next').onclick=()=>{syncAnswer();if(step<qs.length-1){step++;renderQ()}else {data.card=initialCard();save();renderCard();show('result')}};
+function initialCard(){return [data.answers[0],data.answers[2],data.answers[3],data.answers[4],data.answers[5]].map(x=>x.trim())}
+function renderCard(){const root=$('card-lines');root.replaceChildren();labels.slice(0,4).forEach(([code,label],i)=>{const row=document.createElement('div');row.className='card-section';const tag=document.createElement('div');tag.className='card-tag';tag.textContent=`0${i+1} / ${code} · ${label}`;const value=document.createElement('div');value.className='card-value';value.textContent=data.card[i]||'아직 정하지 않았어요';row.append(tag,value);root.append(row)});$('card-quote').textContent=data.card[4]||'지금 할 수 있는 것에 집중하자.'}
+$('revise').onclick=()=>{step=0;renderQ()};
+$('copy').onclick=async()=>{const text=['3학년 7반 | 나의 수능 FINAL PLAN','',...labels.map(([code,label],i)=>`${label}: ${data.card[i]||'미작성'}`),'','최근 모의고사에서 느낀 점: '+(data.answers[1]||'미작성')].join('\n');try{await navigator.clipboard.writeText(text);$('status').textContent='면담용 내용이 복사되었습니다.'}catch(e){const el=document.createElement('textarea');el.value=text;document.body.append(el);el.select();document.execCommand('copy');el.remove();$('status').textContent='면담용 내용 복사를 시도했습니다.'}};
+$('reset').onclick=()=>{if(!confirm('이 브라우저에 저장된 답변과 전략을 모두 삭제할까요?'))return;data={answers:Array(6).fill(''),card:Array(5).fill('')};try{localStorage.removeItem(STORE)}catch(e){}show('welcome')};
+// Canvas export: no external scripts, images, or fonts are required.
+function wrap(ctx,text,maxWidth){const chars=Array.from(text||'');const lines=[];let line='';for(const ch of chars){if(ch==='\n'){lines.push(line);line='';continue}if(ctx.measureText(line+ch).width>maxWidth&&line){lines.push(line);line=ch}else line+=ch}lines.push(line);return lines}
+function drawCard(){
+ const W=1080,H=1920,canvas=document.createElement('canvas');canvas.width=W;canvas.height=H;
+ const c=canvas.getContext('2d'),ink='#294737',green='#4e7d61';
+ c.fillStyle='#fff';c.fillRect(0,0,W,H);
+ const font=(size,weight=700)=>`${weight} ${size}px system-ui,-apple-system,'Malgun Gothic',sans-serif`;
+ function text(t,x,y,size,color,weight=700){c.font=font(size,weight);c.fillStyle=color;c.fillText(t,x,y)}
+ text('MY FINAL PLAN',75,105,30,green,800);
+ c.textAlign='right';text('3학년 7반 · 2027 수능',1005,107,39,green,800);c.textAlign='left';
+ // Deliberate two-line heading, identical in preview and exported PNG.
+ text('나는 내가 할 수 있는 것에',75,222,62,ink,800);
+ text('집중한다.',75,310,72,ink,800);
+ c.strokeStyle='#dce8df';c.lineWidth=3;c.beginPath();c.moveTo(75,380);c.lineTo(1005,380);c.stroke();
+ const values=data.card.slice(0,4).map(v=>v||'아직 정하지 않았어요');
+ let fs=44,leading=61,measured=[],height=0;
+ for(;fs>=27;fs-=2){
+  c.font=font(fs,700);measured=values.map(v=>wrap(c,v,925));leading=Math.round(fs*1.38);
+  height=measured.reduce((n,ls)=>n+45+ls.length*leading+37,0);
+  if(height<=1060)break;
+ }
+ if(height>1060)throw Error('작성 내용이 카드 한 장에 담기기 어렵습니다. 일부 답변을 줄여 주세요.');
+ let y=460;
+ for(let i=0;i<4;i++){
+  text(`0${i+1} / ${labels[i][0]} · ${labels[i][1]}`,75,y,35,green,800);y+=54;
+  for(const line of measured[i]){text(line,75,y,fs,ink);y+=leading}
+  y+=37;
+ }
+ c.fillStyle='#edf4ee';c.beginPath();c.roundRect(75,1530,930,280,24);c.fill();
+ text('TO MYSELF · 나에게',115,1595,34,green,800);
+ let quoteSize=44,quote=[];
+ for(;quoteSize>=24;quoteSize-=2){c.font=font(quoteSize,750);quote=wrap(c,data.card[4]||'지금 할 수 있는 것에 집중하자.',835);if(quote.length<=3)break}
+ if(quote.length>3)throw Error('나에게 해 줄 말이 너무 깁니다. 답변을 조금 줄여 주세요.');
+ quote.forEach((line,i)=>text(line,115,1672+i*55,quoteSize,ink,750));
+ c.textAlign='center';text('나만의 속도로, 끝까지.',W/2,1872,26,'#829887',600);
+ return canvas;
+}
+const kakaoBrowser=/KAKAOTALK/i.test(navigator.userAgent);
+function showImagePreview(canvas){
+ // A data:image/png URL rendered in a real <img> bypasses blob download handling in in-app browsers.
+ const img=$('image-overlay-img');img.src=canvas.toDataURL('image/png');
+ $('image-overlay').hidden=false;document.body.style.overflow='hidden';
+ $('status').textContent='PNG 이미지를 열었습니다. 이미지를 길게 눌러 저장하거나 화면을 캡처해 주세요.';
+}
+function closeImagePreview(){
+ $('image-overlay').hidden=true;document.body.style.overflow='';$('image-overlay-img').removeAttribute('src');
+}
+$('image-overlay-close').onclick=closeImagePreview;
+$('image-overlay').addEventListener('click',e=>{if(e.target===$('image-overlay'))closeImagePreview()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('image-overlay').hidden)closeImagePreview()});
+$('download').onclick=()=>{
+ try{
+  const canvas=drawCard();
+  if(kakaoBrowser){showImagePreview(canvas);return}
+  if(!canvas.toBlob){showImagePreview(canvas);return}
+  canvas.toBlob(blob=>{
+   if(!blob){showImagePreview(canvas);return}
+   const url=URL.createObjectURL(blob);const a=document.createElement('a');
+   a.href=url;a.download='3학년7반_수능_FINAL_PLAN.png';document.body.append(a);a.click();a.remove();
+   setTimeout(()=>URL.revokeObjectURL(url),30000);
+   $('status').textContent='PNG 저장을 요청했습니다. 다운로드가 안 되면 아래의 이미지 보기 버튼을 이용해 주세요.';
+  },'image/png');
+ }catch(e){$('status').textContent=e.message||'이미지 생성에 실패했습니다.'}
+};
+$('image-view').onclick=()=>{try{showImagePreview(drawCard())}catch(e){$('status').textContent=e.message||'이미지 생성에 실패했습니다.'}};
+</script></body></html>
